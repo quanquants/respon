@@ -51,11 +51,12 @@ header nav form .search {
 }
 
 /* NAV */
-.navigate li{
+.navigate li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .navigate li a {
   font-weight: 400;
   font-size: 14px;
@@ -81,4 +82,34 @@ header nav form .search {
   background: #F1F1F1 !important;
   border-radius: 8px;
   color: black !important;
+}
+
+.button-01 {
+  border: 1px solid #E9E9E9;
+  color: #6E6D7A;
+  border-radius: 8px;
+  background-color: white;
+  font-size: 14px;
+}
+
+.button-filter {
+  padding-left: 30px;
+}
+
+.img-filter {
+  position: absolute;
+  top: 12px;
+  left: 25px;
+  width: 14px;
+}
+
+.p-35 {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+/* MAIN  */
+main .card .infor-card .row .col-7 span {
+  font-weight: 400;
+  font-size: 14px;
 }
