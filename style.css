@@ -109,7 +109,21 @@ header nav form .search {
 }
 
 /* MAIN  */
-main .card .infor-card .row .col-7 span {
-  font-weight: 400;
+main .card{
+  border: none;
+}
+main .card .infor-card .infor-card-left p {
   font-size: 14px;
+  margin-bottom: 0;
+}
+
+main .card .infor-card .infor-card-right .like p {
+  font-size: 12px;
+  margin-bottom: 0;
+
+}
+
+main .card .infor-card .infor-card-right .view p {
+  font-size: 12px;
+  margin-bottom: 0;
 }
