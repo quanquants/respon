@@ -98,8 +98,8 @@ header nav form .search {
 
 .img-filter {
   position: absolute;
-  top: 12px;
-  left: 25px;
+  top: 16px;
+  left: 64px;
   width: 14px;
 }
 
@@ -108,10 +108,18 @@ header nav form .search {
   padding-right: 35px;
 }
 
+/* HEADER-1024 */
+header header-1024 nav form .search,
+header-768 nav form .search {
+  position: inherit;
+  padding-right: 20px;
+}
+
 /* MAIN  */
-main .card{
+main .card {
   border: none;
 }
+
 main .card .infor-card .infor-card-left p {
   font-size: 14px;
   margin-bottom: 0;
@@ -126,4 +134,33 @@ main .card .infor-card .infor-card-right .like p {
 main .card .infor-card .infor-card-right .view p {
   font-size: 12px;
   margin-bottom: 0;
+}
+
+/* NAVIGATE-1440 */
+.navigate-1440 .img-filter {
+  left: 25px;
+}
+
+/* NAVIGATE-4 */
+.navigate-1024 .img-filter {
+  left: -9px;
+}
+
+.navigate-768 .img-filter {
+  left: -30px;
+  top: 13px;
+}
+
+.navigate-768,.navigate-425 .row:first-child {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 15px;
+}
+
+.navigate-425 .img-filter {
+  top: 13px;
+  left: -59px;
+}
+
+.navigate-425 .row nav ul li{
+  margin-left: -2px;
 }
