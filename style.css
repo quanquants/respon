@@ -151,7 +151,12 @@ main .card .infor-card .infor-card-right .view p {
   top: 13px;
 }
 
-.navigate-768,.navigate-425 .row:first-child {
+.navigate-425 .row:first-child {
+  border-bottom: 1px solid #dedede;
+  padding-bottom: 15px;
+}
+
+.navigate-768 .row:first-child {
   border-bottom: 1px solid #dedede;
   padding-bottom: 15px;
 }
@@ -161,6 +166,86 @@ main .card .infor-card .infor-card-right .view p {
   left: -59px;
 }
 
-.navigate-425 .row nav ul li{
+.navigate-425 .row nav ul li {
   margin-left: -2px;
+}
+
+/* RESPONSIVE */
+header-1024,
+header-768 {
+  display: none;
+}
+
+.navigate-1440,
+.navigate-1024,
+.navigate-768,
+.navigate-425 {
+  display: none;
+}
+
+@media screen and (max-width:1440px) {
+  .navigate-max {
+    display: none;
+  }
+
+  .navigate-1440 {
+    display: block;
+  }
+}
+
+@media screen and (max-width:1120px) {
+  header nav form input {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  header-max {
+    display: none;
+  }
+
+  header-1024 {
+    display: block;
+  }
+
+  .navigate-1440 {
+    display: none;
+  }
+
+  .navigate-1024 {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  header-max {
+    display: none;
+  }
+
+  header-1024 {
+    display: none;
+  }
+
+  header-768 {
+    display: block;
+  }
+
+  .navigate-1024 {
+    display: none;
+  }
+
+  .navigate-768 {
+    display: block;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .navigate-768 {
+    display: none;
+  }
+
+  .navigate-425 {
+    display: block;
+  }
 }
